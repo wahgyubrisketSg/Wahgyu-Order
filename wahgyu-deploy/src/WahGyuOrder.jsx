@@ -24,7 +24,7 @@ const CATEGORIES = [
 const PRODUCTS = [
   // Sets — only show meat weight
   { id: 1, cat: "sets", name: "The WAH! Set", desc: "800g Toriyama brisket with BBQ sauce, garlic yogurt, sauerkraut, 8 potato rösti & charred corn ribs (18 ribs).", price: 158, originalPrice: 198, unit: "800g brisket", badge: "FEEDS 6–7", img: IMG_WAH_SET, soldOut: false },
-  { id: 2, cat: "sets", name: "The Duo Set", desc: "400g Toriyama brisket with BBQ sauce, garlic yogurt, sauerkraut, 4 potato rösti & charred corn ribs (10 ribs).", price: 98, originalPrice: 138, unit: "400g brisket", badge: "FEEDS 2–3", img: IMG_DUO_SET, soldOut: false },
+  { id: 2, cat: "sets", name: "The Duo Set", desc: "400g Toriyama brisket with BBQ sauce, garlic yogurt, sauerkraut, 4 potato rösti & charred corn ribs (10 ribs).", price: 98, originalPrice: 138, unit: "400g brisket", badge: "FEEDS 2–3", img: IMG_DUO_SET, soldOut: true },
   // Sides
   { id: 3, cat: "sides", name: "Potato Rösti", desc: "Golden, crispy potato rösti.", price: 1.5, unit: "per pc", badge: null, img: IMG_ROSTI },
   { id: 4, cat: "sides", name: "Charred Corn Rib", desc: "Charred, seasoned corn ribs.", price: 8, unit: "per serve", badge: null, img: IMG_CORN },
